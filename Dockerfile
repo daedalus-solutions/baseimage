@@ -11,4 +11,4 @@ FROM phusion/baseimage:latest
 MAINTAINER Jonathan Temlett - Daedalus Solutions (jono@daedalus.co.za)
 
 RUN apt-get update
-RUN apt-get upgrade
+RUN apt-get -y upgrade
